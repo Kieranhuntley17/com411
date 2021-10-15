@@ -1,0 +1,2 @@
+def identify():
+    boulder = input()
