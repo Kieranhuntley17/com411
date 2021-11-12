@@ -2,8 +2,9 @@ import matplotlib.pyplot as plt
 
 
 def display(x, y):
-    plt.plot(x, y)
-    plt.show()
+    plt.plot(x, y)  # use "s" or "o" for square or circle markers
+    plt.show()      # use "o-", "o--" or "o:" for different line variations
+                    # use "ro" for red and "yo" for yellow markers
 
 
 def run():
@@ -11,4 +12,6 @@ def run():
     y_values = [1, 4, 9, 16, 25]
     display(x_values, y_values)
 
+
 run()
+
